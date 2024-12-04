@@ -1,11 +1,13 @@
 import './App.css'
+import PageTitle from './services/PageTitle'
+
 
 function App() {
 
   return (
     <>
       <div>
-        <h1 className='font-bold text-2xl'>Child Labour</h1>
+        <PageTitle title={'Child Labour Home'}/>
       </div>
     </>
   )
