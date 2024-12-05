@@ -6,7 +6,7 @@ function Footer() {
     <div className="">
       <footer className="footer bg-black text-white">
         <aside className="pl-14 pt-5">
-          <h1 className="">Follow Us</h1>
+          <h1 className="text-3xl">Follow Us</h1>
           <FooterLogo />
         </aside>
         <nav>
