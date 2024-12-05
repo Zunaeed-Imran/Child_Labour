@@ -12,10 +12,9 @@ function Navbar() {
   };
 
   return (
-    <div className="bg-black top-0 fixed w-full z-20 p-0 m-0">
+    <div className="bg-[#FFFFFF] top-0 fixed w-full z-20 p-0 m-0">
       <div className="flex justify-between w-full px-20">
-
-        <div className="flex gap-4 text-white font-bold justify items-center py-5">
+        <div className="flex gap-4 text-black font-bold justify items-center py-5">
           <button className="md:hidden" onClick={toggleMobile}>
             <FaBars />
           </button>
@@ -27,7 +26,7 @@ function Navbar() {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
+                isActive ? 'text-red-500' : 'hover:text-red-500'
               }
             >
               HOME
@@ -35,7 +34,7 @@ function Navbar() {
             <NavLink
               to="/contactuspage"
               className={({ isActive }) =>
-                isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
+                isActive ? 'text-red-500' : 'hover:text-red-500'
               }
             >
               OUR WORK
@@ -43,7 +42,7 @@ function Navbar() {
             <NavLink
               to="/error"
               className={({ isActive }) =>
-                isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
+                isActive ? 'text-red-500' : 'hover:text-red-500'
               }
             >
               ABOUT US
@@ -51,7 +50,7 @@ function Navbar() {
             <NavLink
               to="/ourmenu"
               className={({ isActive }) =>
-                isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
+                isActive ? 'text-red-500' : 'hover:text-red-500'
               }
             >
               OUR IMPACT
@@ -60,8 +59,8 @@ function Navbar() {
               to="/ourshop"
               className={({ isActive }) =>
                 isActive
-                  ? 'text-yellow-400 flex gap-2'
-                  : 'hover:text-yellow-400 flex gap-2'
+                  ? 'text-red-500 flex gap-2'
+                  : 'hover:text-red-500 flex gap-2'
               }
             >
               GET INVOLVED
@@ -70,8 +69,8 @@ function Navbar() {
               to="/login"
               className={({ isActive }) =>
                 isActive
-                  ? 'text-yellow-400 flex gap-2'
-                  : 'hover:text-yellow-400 flex gap-2'
+                  ? 'text-red-500 flex gap-2'
+                  : 'hover:text-red-500 flex gap-2'
               }
             >
               DONATE
