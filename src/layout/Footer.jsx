@@ -3,14 +3,10 @@ import FooterLogo from "../smallComponents/FooterLogo";
 
 function Footer() {
   return (
-    <div>
-      <footer className="footer bg-black text-white p-10">
-        <aside>
-          <p className="text-left leading-relaxed pb-5">
-            Edwin Diaz is a software and web <br />
-            technologies engineer, a life coach <br />
-            trainer who is also a serial .
-          </p>
+    <div className="">
+      <footer className="footer bg-black text-white">
+        <aside className="pl-14 pt-5">
+          <h1 className="">Follow Us</h1>
           <FooterLogo />
         </aside>
         <nav>
