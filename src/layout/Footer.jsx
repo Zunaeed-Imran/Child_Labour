@@ -4,7 +4,7 @@ import FooterLogo from "../smallComponents/FooterLogo";
 function Footer() {
   return (
     <div className="">
-      <footer className="footer bg-black text-white">
+      <footer className="footer bg-black text-white py-5">
         <aside className="pl-14 pt-5">
           <h1 className="text-3xl">Follow Us</h1>
           <FooterLogo />
