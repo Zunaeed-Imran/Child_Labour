@@ -3,14 +3,12 @@ import { CgProfile } from "react-icons/cg";
 import { FaBars } from "react-icons/fa";
 import { IoMdLogIn } from "react-icons/io";
 import { RiShoppingCartLine } from "react-icons/ri";
-import { NavLink, useLocation } from "react-router-dom";
-import { ScrollLink } from "react-scroll";
+import { NavLink } from "react-router-dom";
 
 
 function Navbar() {
 
   const [mobile, setMobile] = useState(false);
-  const location = useLocation();
 
   const toggleMobile = () => {
     setMobile(!mobile);
@@ -19,18 +17,8 @@ function Navbar() {
   return (
     <div className="bg-black top-0 fixed w-full z-20 p-0 m-0">
       <div className="flex justify-between w-full px-20">
-        <div className="justify items-center link">
-          {location.pathname === '/' ? (
-            <ScrollLink to="home" smooth={true} duration={500}>
-              <img src={''} alt="logo" />
-            </ScrollLink>
-          ) : (
-            <NavLink to="/">
-              <img src={''} alt="logo" />
-            </NavLink>
-          )}
-        </div>
-        <div className="flex gap-4 text-white font-bold justify items-center">
+
+        <div className="flex gap-4 text-white font-bold justify items-center py-5">
           <button className="md:hidden" onClick={toggleMobile}>
             <FaBars />
           </button>
