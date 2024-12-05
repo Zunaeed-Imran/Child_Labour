@@ -67,10 +67,8 @@ function Navbar() {
             </NavLink>
             <NavLink
               to="/login"
-              className={({ isActive }) =>
-                isActive
-                  ? 'text-red-500 flex gap-2'
-                  : 'hover:text-red-500 flex gap-2'
+              className={
+                'rounded-md bg-black text-white p-2 hover:bg-white hover:text-black border border-black'
               }
             >
               DONATE
