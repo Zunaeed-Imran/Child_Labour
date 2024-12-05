@@ -1,8 +1,5 @@
 import { useState } from "react";
-import { CgProfile } from "react-icons/cg";
 import { FaBars } from "react-icons/fa";
-import { IoMdLogIn } from "react-icons/io";
-import { RiShoppingCartLine } from "react-icons/ri";
 import { NavLink } from "react-router-dom";
 
 
@@ -41,7 +38,7 @@ function Navbar() {
                 isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
               }
             >
-              CONTACT US
+              OUR WORK
             </NavLink>
             <NavLink
               to="/error"
@@ -49,7 +46,7 @@ function Navbar() {
                 isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
               }
             >
-              DASHBOARD
+              ABOUT US
             </NavLink>
             <NavLink
               to="/ourmenu"
@@ -57,7 +54,7 @@ function Navbar() {
                 isActive ? 'text-yellow-400' : 'hover:text-yellow-400'
               }
             >
-              OUR MENU
+              OUR IMPACT
             </NavLink>
             <NavLink
               to="/ourshop"
@@ -67,7 +64,7 @@ function Navbar() {
                   : 'hover:text-yellow-400 flex gap-2'
               }
             >
-              OUR SHOP <RiShoppingCartLine size="1.5rem" />
+              GET INVOLVED
             </NavLink>
             <NavLink
               to="/login"
@@ -77,17 +74,7 @@ function Navbar() {
                   : 'hover:text-yellow-400 flex gap-2'
               }
             >
-              LOGIN <IoMdLogIn size="1.5rem" />
-            </NavLink>
-            <NavLink
-              to="/signup"
-              className={({ isActive }) =>
-                isActive
-                  ? 'text-yellow-400 flex gap-2'
-                  : 'hover:text-yellow-400 flex gap-2'
-              }
-            >
-              SIGN UP <CgProfile size="1.5rem" />
+              DONATE
             </NavLink>
           </div>
         </div>
