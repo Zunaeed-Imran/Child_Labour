@@ -20,13 +20,13 @@ function Navbar() {
           </button>
           <div
             className={`${
-              mobile ? 'flex' : 'hidden'
+              mobile ? "flex" : "hidden"
             } flex-col gap-4 text-left md:flex md:flex-row`}
           >
             <NavLink
               to="/"
               className={({ isActive }) =>
-                isActive ? 'text-red-500' : 'hover:text-red-500'
+                isActive ? "text-red-500" : "hover:text-red-500"
               }
             >
               HOME
@@ -34,7 +34,7 @@ function Navbar() {
             <NavLink
               to="/contactuspage"
               className={({ isActive }) =>
-                isActive ? 'text-red-500' : 'hover:text-red-500'
+                isActive ? "text-red-500" : "hover:text-red-500"
               }
             >
               OUR WORK
@@ -42,7 +42,7 @@ function Navbar() {
             <NavLink
               to="/error"
               className={({ isActive }) =>
-                isActive ? 'text-red-500' : 'hover:text-red-500'
+                isActive ? "text-red-500" : "hover:text-red-500"
               }
             >
               ABOUT US
@@ -50,29 +50,29 @@ function Navbar() {
             <NavLink
               to="/ourmenu"
               className={({ isActive }) =>
-                isActive ? 'text-red-500' : 'hover:text-red-500'
+                isActive ? "text-red-500" : "hover:text-red-500"
               }
             >
               OUR IMPACT
             </NavLink>
-            <NavLink
-              to="/ourshop"
-              className={({ isActive }) =>
-                isActive
-                  ? 'text-red-500 flex gap-2'
-                  : 'hover:text-red-500 flex gap-2'
-              }
-            >
-              GET INVOLVED
-            </NavLink>
-            <NavLink
-              to="/login"
-              className={
-                'rounded-md bg-black text-white p-2 hover:bg-white hover:text-black border border-black'
-              }
-            >
-              DONATE
-            </NavLink>
+            <div className="justify-center flex flex-row gap-2">
+              <NavLink
+                to="/ourshop"
+                className={
+                  "rounded-md bg-black text-white p-2 hover:bg-white hover:text-black border border-black"
+                }
+              >
+                GET INVOLVED
+              </NavLink>
+              <NavLink
+                to="/login"
+                className={
+                  "rounded-md bg-black text-white p-2 hover:bg-white hover:text-black border border-black"
+                }
+              >
+                DONATE
+              </NavLink>
+            </div>
           </div>
         </div>
       </div>
