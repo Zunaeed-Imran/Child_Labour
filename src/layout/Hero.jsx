@@ -64,7 +64,7 @@ function Hero() {
           </p>
         </div>
         <div>
-          <h1>Child labour is not always illegal</h1>
+          <h1 className="text-5xl font-bold text-black">Child labour is not always illegal</h1>
           <p>
             In many countries children working under the age of 18 is illegal –
             but not in all. Families and employers often hide what they are
@@ -77,7 +77,7 @@ function Hero() {
           </p>
         </div>
         <div>
-          <h1>How many child labourers are there?</h1>
+          <h1 className="text-5xl font-bold text-black">How many child labourers are there?</h1>
           <p>
             The International Labour Organization said in 2017 that about 152
             million children aged from five to 17 – 64 million girls and 88
@@ -96,7 +96,7 @@ function Hero() {
           </p>
         </div>
         <div>
-          <h1>Why do children work?</h1>
+          <h1 className="text-5xl font-bold text-black">Why do children work?</h1>
           <p>
             Poverty, discrimination and marginalisation are the main drivers of
             child labour. Children in poor circumstances work because work is
@@ -116,7 +116,7 @@ function Hero() {
           </p>
         </div>
         <div>
-          <h1>What countries have child labourers?</h1>
+          <h1 className="text-5xl font-bold text-black">What countries have child labourers?</h1>
           <p>
             Nigeria, Pakistan and Afghanistan have the highest number of child
             labourers. They have also been affected for many years by wars and
@@ -130,7 +130,7 @@ function Hero() {
           </p>
         </div>
         <div>
-          <h1>Child labourers doing hazardous jobs</h1>
+          <h1 className="text-5xl font-bold text-black">Child labourers doing hazardous jobs</h1>
           <p>
             At least 85 million children do very hazardous work – forced labour,
             trafficking and bonded labour.
