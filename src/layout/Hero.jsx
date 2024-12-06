@@ -1,4 +1,4 @@
-
+import img1 from '../assets/img/child-labour.png';
 
 function Hero() {
   return (
@@ -8,7 +8,7 @@ function Hero() {
           Child labour
         </h1>
         <div>
-          <img src="" alt="" />
+          <img src={img1} alt="" />
           <p>
             This page introduces you to the issues surrounding child labour. It
             explains what child labour is, where and why children work and how
