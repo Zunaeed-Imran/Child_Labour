@@ -9,7 +9,7 @@ function Hero() {
         </h1>
         <div>
           <img src={img1} alt="" />
-          <p>
+          <p className='text-black'>
             This page introduces you to the issues surrounding child labour. It
             explains what child labour is, where and why children work and how
             working can prevent them from going to school and trap them in a
