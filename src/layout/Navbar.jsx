@@ -32,7 +32,7 @@ function Navbar() {
               HOME
             </NavLink>
             <NavLink
-              to="/contactuspage"
+              to="/err"
               className={({ isActive }) =>
                 isActive ? "text-red-500" : "hover:text-red-500"
               }
@@ -48,7 +48,7 @@ function Navbar() {
               ABOUT US
             </NavLink>
             <NavLink
-              to="/ourmenu"
+              to="/err"
               className={({ isActive }) =>
                 isActive ? "text-red-500" : "hover:text-red-500"
               }
@@ -57,7 +57,7 @@ function Navbar() {
             </NavLink>
             <div className="justify-center flex flex-row gap-2">
               <NavLink
-                to="/ourshop"
+                to="/err"
                 className={
                   "rounded-md bg-black text-white p-2 hover:bg-white hover:text-black border border-black"
                 }
@@ -65,7 +65,7 @@ function Navbar() {
                 GET INVOLVED
               </NavLink>
               <NavLink
-                to="/login"
+                to="/err"
                 className={
                   "rounded-md bg-black text-white p-2 hover:bg-white hover:text-black border border-black"
                 }
