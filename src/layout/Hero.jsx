@@ -2,7 +2,7 @@ import img1 from '../assets/img/child-labour.png';
 
 function Hero() {
   return (
-    <div className="bg-[#FFFFFF] pt-20 justify-center items-center py-20">
+    <div className="bg-[#FFFFFF] pt-20 justify-center items-center px-20 ">
       <div className="">
         <h1 className="text-5xl font-bold text-black">
           Child labour
