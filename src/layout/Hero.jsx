@@ -7,7 +7,7 @@ function Hero() {
         <h1 className="text-5xl font-bold text-black text-left pl-14">
           Child labour
         </h1>
-        <div>
+        <div className='pl-16'>
           <img src={img1} alt="" />
           <p className='text-black'>
             This page introduces you to the issues surrounding child labour. It
