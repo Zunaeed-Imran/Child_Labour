@@ -25,8 +25,8 @@ function Footer() {
           <h6 className="py-10 text-xl font-bold text-white pb-6">
             Terms of Service
           </h6>
-          <a className="link link-hover">Why Car Doctor</a>
           <a className="link link-hover">About</a>
+          <a className="link link-hover">Cookie Policy</a>
         </nav>
         <nav>
           <h6 className="py-10 text-xl font-bold text-white pb-6">
