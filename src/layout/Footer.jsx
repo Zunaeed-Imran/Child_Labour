@@ -8,8 +8,8 @@ function Footer() {
         <aside className="pl-14 pt-5">
           <h1 className="text-3xl">Follow Us</h1>
           <p className="text-left">
-            `Working together to create a world free of child labour and <br />{' '}
-            ensure a brighter future for every child.`
+            Working together to create a world free of child labour and <br />{' '}
+            ensure a brighter future for every child.
           </p>
           <FooterLogo />
         </aside>
