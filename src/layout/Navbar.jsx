@@ -18,6 +18,7 @@ function Navbar() {
           <button className="md:hidden" onClick={toggleMobile}>
             <FaBars />
           </button>
+
           <div
             className={`${
               mobile ? "flex" : "hidden"
@@ -31,6 +32,7 @@ function Navbar() {
             >
               HOME
             </NavLink>
+
             <NavLink
               to="/err"
               className={({ isActive }) =>
@@ -39,6 +41,7 @@ function Navbar() {
             >
               OUR WORK
             </NavLink>
+
             <NavLink
               to="/error"
               className={({ isActive }) =>
@@ -47,6 +50,7 @@ function Navbar() {
             >
               ABOUT US
             </NavLink>
+
             <NavLink
               to="/err"
               className={({ isActive }) =>
@@ -55,6 +59,7 @@ function Navbar() {
             >
               OUR IMPACT
             </NavLink>
+
             <div className="justify-center flex flex-row gap-2">
               <NavLink
                 to="/err"
@@ -64,6 +69,7 @@ function Navbar() {
               >
                 GET INVOLVED
               </NavLink>
+              
               <NavLink
                 to="/err"
                 className={
