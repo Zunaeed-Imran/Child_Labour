@@ -9,6 +9,7 @@ function App() {
     <>
       <div>
         <PageTitle title={'Child Labour Home'} />
+
         <Hero/>
       </div>
     </>

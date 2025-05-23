@@ -7,7 +7,9 @@ function MainOutlet() {
   return (
     <div>
       <Navbar />
+
       <Outlet />
+      
       <Footer/>
     </div>
   )
